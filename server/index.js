@@ -1,6 +1,10 @@
 const { gql, ApolloServer } = require('apollo-server')
 
 const typeDefs = gql`
+  schema {
+    query: Query
+  }
+
   type Query {
     luckyNumber: String
   }

@@ -30,7 +30,7 @@ yarn start
 
 Query:
 ```js
-{
+query {
   luckyNumber
 }
 ```
