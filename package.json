@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "node server/",
     "simulate-prod": "NODE_ENV='production' node server/",
+    "start": "node server/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
