@@ -1,4 +1,9 @@
-const SERVER_URL = 'http://localhost:9090/'
+// For the moment we are going to care just about dev
+import { port, url } from '../constants'
+
+console.log(url)
+
+const SERVER_URL = `${url}${port}/`
 
 const getLuckyNumber = async () => {
    const response = await fetch(SERVER_URL, {

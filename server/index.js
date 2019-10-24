@@ -1,5 +1,7 @@
 const { gql, ApolloServer } = require('apollo-server')
 
+const { port } = require('../constants')
+
 const typeDefs = gql`
   schema {
     query: Query
@@ -17,6 +19,7 @@ const resolvers = {
 }
 
 const server = new ApolloServer({
+  cors: true,
   typeDefs, 
   resolvers,
   playground: process.env.NODE_ENV === 'production' ? false : true
@@ -25,7 +28,7 @@ const server = new ApolloServer({
 console.log(process.env.NODE_ENV)
 
 server.listen({
-  port: 9090
+  port: process.env.PORT || port
 }).then(
   (serverInformation) => console.log('Server running at', serverInformation.url)
   );
