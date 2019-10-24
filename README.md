@@ -43,3 +43,17 @@ Returns:
   }
 }
 ```
+
+<!--
+TODO:
+  - Arreglar circleci... 
+    yarn run v1.13.0
+    error Command "build" not found.
+    Ver plantilla modelo Node
+  - Agregar info client a README
+  - Manejo de errores 
+  - Ver scripts package.json
+  - Package.json deberia estar dentro de server o como esta hora? 
+    Chequear https://github.com/mirkonasato/graphql-examples
+    Y como seria el deployment
+-->
