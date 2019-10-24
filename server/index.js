@@ -20,6 +20,7 @@ const resolvers = {
 
 const server = new ApolloServer({
   cors: true,
+  debug: true,
   typeDefs, 
   resolvers,
   playground: process.env.NODE_ENV === 'production' ? false : true
