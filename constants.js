@@ -1,7 +1,14 @@
+// For the moment, all localhost and not prod conf
+
 module.exports = {
-  port: 9090,
-  url: {
-    dev: 'http://localhost',
-    production: 'https://basic-graphql.herokuapp.com/'
+  dev: {
+    apollo: {
+      url: 'http://localhost',
+      port: 9090
+    },
+    http: {
+      url: 'http://localhost',
+      port: 9091
+    },
   }
 }

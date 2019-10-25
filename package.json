@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "NODE_ENV=dev node server/",
-    "start": "NODE_ENV=production node server/"
+    "dev:apollo": "NODE_ENV=dev node apollo-server/",
+    "dev:http": "NODE_ENV=dev node http-server/",
+    "dev": "run-p dev:*",
+    "start": "run-p start:*",
+    "start:apollo": "NODE_ENV=production node apollo-server/",
+    "start:http": "NODE_ENV=production node http-server/"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
 }
