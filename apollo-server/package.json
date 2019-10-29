@@ -1,9 +1,10 @@
 {
   "name": "apollo-server",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
-  "license": "ISC",
+  "description": "Simple example of how to implement Apollo GraphQL Server",
+  "keywords": ["apollo graphql","apollo server"],
+  "author": "Al Diaz",
+  "license": "MIT",
   "dependencies": {
     "apollo-server": "^2.9.6",
     "graphql": "^14.5.8"
