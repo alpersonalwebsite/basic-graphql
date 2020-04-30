@@ -2,7 +2,10 @@
   "name": "http-client",
   "version": "1.0.0",
   "description": "Simple example of how to implement Apollo GraphQL client",
-  "keywords": ["apollo graphql", "apollo graphql client"],
+  "keywords": [
+    "apollo graphql",
+    "apollo graphql client"
+  ],
   "author": "Al Diaz",
   "license": "MIT",
   "dependencies": {
