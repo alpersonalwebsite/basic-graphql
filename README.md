@@ -7,18 +7,18 @@ This is an easy, basic and raw (no styles attached) example of **HOW to** implem
 
 ## Installation
 ```
-yarn install
+npm install
 ```
 ## Running the server
 
 ### Development
 ```
-yarn run dev
+npm run dev
 ```
 
 ### Production
 ```
-yarn start
+npm start
 ```
 
 ## Interacting with the `Playground` (dev) or querying.
@@ -42,7 +42,7 @@ Returns:
 <!--
 TODO:
   - Arreglar circleci... 
-    yarn run v1.13.0
+    npm run v1.13.0
     error Command "build" not found.
     Ver plantilla modelo Node
   - Agregar info client a README
