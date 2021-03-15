@@ -2,7 +2,14 @@
   "name": "basic-graphql",
   "version": "1.0.0",
   "description": "Simple example of how to implement Apollo GraphQL: client and server",
-  "keywords": ["apollo graphql","basic graphql example", "apollographqlclient", "apollographqlserver", "apollo client", "apollo server"],
+  "keywords": [
+    "apollo graphql",
+    "basic graphql example",
+    "apollographqlclient",
+    "apollographqlserver",
+    "apollo client",
+    "apollo server"
+  ],
   "scripts": {
     "dev:server": "NODE_ENV=dev node apollo-server/",
     "dev:client": "NODE_ENV=dev node http-client/",
