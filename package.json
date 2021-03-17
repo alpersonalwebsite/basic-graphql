@@ -11,11 +11,11 @@
     "apollo server"
   ],
   "scripts": {
-    "dev:server": "NODE_ENV=dev node apollo-server/",
+    "dev:server": "NODE_ENV=dev node server/",
     "dev:client": "NODE_ENV=dev node http-client/",
     "dev": "run-p dev:*",
     "start": "run-p start:*",
-    "start:server": "NODE_ENV=production node apollo-server/",
+    "start:server": "NODE_ENV=production node server/",
     "start:client": "NODE_ENV=production node http-client/"
   },
   "author": "Al Diaz",
